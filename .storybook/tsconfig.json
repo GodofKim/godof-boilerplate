@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig",
+  "compilerOptions": {
+    "target": "es5",
+    "baseUrl": "../",
+    "typeRoots": [
+      "../node_modules/@types",
+      "../@types"
+    ],
+    "lib": [
+      "dom",
+      "es5",
+      "es2015"
+    ]
+  }
+}
