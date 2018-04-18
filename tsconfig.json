@@ -14,9 +14,12 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
-    "strictNullChecks": true,
+    "strictNullChecks": false,
     "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "experimentalDecorators": true
   },
   "exclude": [
     "node_modules",
@@ -26,6 +29,6 @@
     "webpack",
     "jest",
     "src/setupTests.ts",
-    "**/*.stories.tsx"
+    "src/**/*.stories.tsx"
   ]
 }
