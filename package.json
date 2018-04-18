@@ -31,7 +31,7 @@
     "@types/react-dom": "^16.0.4",
     "@types/react-redux": "^5.0.15",
     "@types/storybook__react": "^3.0.7",
-    "typescript": "^2.7.2"
+    "typescript": "^2.6.2"
   },
   "proxy": {
     "/api": {
